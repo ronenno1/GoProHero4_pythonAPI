@@ -13,15 +13,16 @@ In this package I have 8 main functions:
 
 2. is_connect: that chacks if the camera are connected (after we try to init it).
 
-3. still_mode: that lets us take pictures with the camera
+3. power_off: that turn off the camera (unfortunately, there is no way to turn on the camera - it makes sense :P)
 
-4. video_mode: that lets us take videos with the camera
+4. still_mode: that lets us take pictures with the camera
 
-5. take_pic: that takes picture - it will works only if we changed the camera's mode to still mode!!
+5. video_mode: that lets us take videos with the camera
 
-6-7. start_record / stop_record: that starts or stops record a video - it will works only if we changed the camera's mode to video mode!!
+6. take_pic: that takes picture - it will works only if we changed the camera's mode to still mode!!
 
-8. power_off: that turn off the camera (unfortunately, there is no way to turn on the camera - it makes sense :P)
+7-8. start_record / stop_record: that starts or stops record a video - it will works only if we changed the camera's mode to video mode!!
+
 
 
 for example you can see demo.py that:
