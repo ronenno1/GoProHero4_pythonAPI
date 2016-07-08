@@ -19,14 +19,14 @@ start_record / stop_record: that starts or stops record a video - it will works 
 power_off: that turn off the camera (unfortunately, there is no way to turn on the camera - it makes sense :P)
 
 for example you can see demo.py that:
-1. inits the camera.
-2. checks if the cammera is connected.
-3. changes the mode of the camera to still mode.
-4. takes a picture.
-5. swiches the camera to video mode.
-6. starts a new video
-7. stops recording.
-8. turns off the camera
+1. init the camera.
+2. check if the cammera is connected.
+3. change the mode of the camera to still mode.
+4. take a picture.
+5. swich the camera to video mode.
+6. start a new video
+7. stop recording.
+8. turn off the camera
 
 (yes it is very simple to control your go pro hero 4 with python)
 
