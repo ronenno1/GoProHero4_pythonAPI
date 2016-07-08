@@ -25,7 +25,9 @@ start_record / stop_record: that starts or stops record a video - it will works 
 
 power_off: that turn off the camera (unfortunately, there is no way to turn on the camera - it makes sense :P)
 
+
 for example you can see demo.py that:
+
 1. inits the camera.
 
 2. checks if the cammera is connected.
