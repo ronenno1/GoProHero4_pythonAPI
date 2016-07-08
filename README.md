@@ -1,4 +1,4 @@
-# GoProHero4_matlabAPI
+# GoProHero4_pythonAPI
 
 Hi everyone!
 Here I develloped a very simple API for go pro hero 4 by python.
