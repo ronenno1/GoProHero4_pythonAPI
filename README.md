@@ -9,21 +9,19 @@ My code include very simple package that called "goProHero4".
 
 In this package I have 8 main functions:
 
-Init: that gets the Ip if the camera (that connectd by wifi).
+1. Init: that gets the Ip if the camera (that connectd by wifi).
 
-is_connect: that chacks if the camera are connected (after we try to init it).
+2. is_connect: that chacks if the camera are connected (after we try to init it).
 
+3. still_mode: that lets us take pictures with the camera
 
-still_mode: that lets us take pictures with the camera
+4. video_mode: that lets us take videos with the camera
 
-video_mode: that lets us take videos with the camera
+5. take_pic: that takes picture - it will works only if we changed the camera's mode to still mode!!
 
-take_pic: that takes picture - it will works only if we changed the camera's mode to still mode!!
+6-7. start_record / stop_record: that starts or stops record a video - it will works only if we changed the camera's mode to video mode!!
 
-start_record / stop_record: that starts or stops record a video - it will works only if we changed the camera's mode to video mode!!
-
-
-power_off: that turn off the camera (unfortunately, there is no way to turn on the camera - it makes sense :P)
+8. power_off: that turn off the camera (unfortunately, there is no way to turn on the camera - it makes sense :P)
 
 
 for example you can see demo.py that:
