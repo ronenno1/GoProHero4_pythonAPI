@@ -2,7 +2,7 @@ import requests
 class goPro:
     ip        = '';
     connected = False;
-    def __init__(self, ip = 'http://oshrit.com'):
+    def __init__(self, ip = 'http://10.5.5.9'):
         self.ip = ip
         print ip
         try:
