@@ -1,0 +1,34 @@
+big_physical_data    = Results_pre.exp.big_physical;
+small_physical_data  = Results_pre.exp.small_physical;
+big_numerical_data   = Results_pre.exp.big_numerical;
+small_numerical_data = Results_pre.exp.small_numerical;
+
+res.pre.big_physical.cong = mean(big_physical_data.RT(big_physical_data.congruent==1));
+res.pre.big_physical.incong = mean(big_physical_data.RT(big_physical_data.congruent==0));
+
+res.pre.small_physical.cong = mean(small_physical_data.RT(small_physical_data.congruent==1));
+res.pre.small_physical.incong = mean(small_physical_data.RT(small_physical_data.congruent==0));
+
+res.pre.big_numerical.cong = mean(big_numerical_data.RT(big_numerical_data.congruent==1));
+res.pre.big_numerical.incong = mean(big_numerical_data.RT(big_numerical_data.congruent==0));
+
+res.pre.small_numerical.cong = mean(small_numerical_data.RT(small_numerical_data.congruent==1));
+res.pre.small_numerical.incong = mean(small_numerical_data.RT(small_numerical_data.congruent==0));
+
+big_physical_data    = Results_post.exp.big_physical;
+small_physical_data  = Results_post.exp.small_physical;
+big_numerical_data   = Results_post.exp.big_numerical;
+small_numerical_data = Results_post.exp.small_numerical;
+
+res.post.big_physical.cong = mean(big_physical_data.RT(big_physical_data.congruent==1));
+res.post.big_physical.incong = mean(big_physical_data.RT(big_physical_data.congruent==0));
+
+res.post.small_physical.cong = mean(small_physical_data.RT(small_physical_data.congruent==1));
+res.post.small_physical.incong = mean(small_physical_data.RT(small_physical_data.congruent==0));
+
+
+res.post.big_numerical.cong = mean(big_numerical_data.RT(big_numerical_data.congruent==1));
+res.post.big_numerical.incong = mean(big_numerical_data.RT(big_numerical_data.congruent==0));
+
+res.post.small_numerical.cong = mean(small_numerical_data.RT(small_numerical_data.congruent==1));
+res.post.small_numerical.incong = mean(small_numerical_data.RT(small_numerical_data.congruent==0));
